@@ -20,7 +20,9 @@
 
     <header>
         <div class="container">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+            <!-- nav part end -->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary mb-5">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         <img src="images/logo.png" alt="logo">
@@ -49,46 +51,106 @@
                 </div>
             </nav>
 
+            <!-- nav part end -->
 
-            <section>
-                <div id="carouselExampleIndicators" class="carousel slide">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                            class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active bg-info">
-                            <div class="row">
-                                <div class="col-lg-7">
-                                    <h1>Cole dude headphone</h1>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus assumenda ad vel inventore sequi, reprehenderit veritatis possimus perspiciatis corporis eum.</p>
+            <!-- banner part start -->
+
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active bg-info border rounded">
+                        <div class="row">
+                            <div class="col-lg-7 d-flex align-items-center ps-5">
+                                <div>
+                                    <h1>Cool Dude Headphone</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint illo id
+                                        laudantium aperiam placeat, ipsa, ullam alias vel odit quis dicta molestiae!</p>
                                     <h1>$420</h1>
-                                    <div class="btn btn-warning">buy now</div>
+                                    <div class="btn btn-warning">Buy now</div>
                                 </div>
-                                <div class="col-lg-5">
-                                    <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
-                                </div>
+                            </div>
+                            <div class="col-lg-5 py-3">
+                                <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+                    <div class="carousel-item active bg-info border rounded">
+                        <div class="row">
+                            <div class="col-lg-7 d-flex align-items-center ps-5">
+                                <div>
+                                    <h1>Mega tv</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint illo id
+                                        laudantium aperiam placeat, ipsa, ullam alias vel odit quis dicta molestiae!</p>
+                                    <h1>$420</h1>
+                                    <div class="btn btn-warning">Buy now</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 py-3">
+                                <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item active bg-info border rounded">
+                        <div class="row">
+                            <div class="col-lg-7 d-flex align-items-center ps-5">
+                                <div>
+                                    <h1>X-Box</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint illo id
+                                        laudantium aperiam placeat, ipsa, ullam alias vel odit quis dicta molestiae!</p>
+                                    <h1>$420</h1>
+                                    <div class="btn btn-warning">Buy now</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 py-3">
+                                <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </section>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <!-- banner part end -->
+
         </div>
     </header>
+
+    <main>
+        <!-- catagores part start -->
+        <section class="mt-5">
+            <div class="container text-center">
+                <div class="row g-2">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="p-3 bg-success d-flex align-items-center rounded-3 justify-content-between">
+                            <h1 class="text-white">Watches</h1>
+                            <img src="images/categories/watch.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="p-3 bg-primary d-flex align-items-center rounded-3 justify-content-between">
+                            <h1 class="text-white">Watches</h1>
+                            <img src="images/categories/watch.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="p-3 bg-success d-flex align-items-center rounded-3 justify-content-between">
+                            <h1 class="text-white">Watches</h1>
+                            <img src="images/categories/watch.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- catagores part end -->
+    </main>
 
 
 
